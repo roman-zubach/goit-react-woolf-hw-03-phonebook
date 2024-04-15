@@ -9,7 +9,7 @@ class App extends Component {
     filter: '',
   };
 
-  componentDidMount = () => {
+  componentDidMount() {
     this.setState({
       contacts: contactsStorage.get(),
     })
